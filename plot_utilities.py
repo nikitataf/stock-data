@@ -1,5 +1,19 @@
 from matplotlib import cycler
 import matplotlib as mpl
+import numpy as np
+
+
+def cdfplot(data: np.ndarray, yrange: float = 1.0):
+    """
+    Generate CDF plot data
+    :param data: the data array
+    :param yrange: range of Y values, e.g. use 100 for percents
+    :return: the X and Y values to be used in plot
+    """
+    X = np.sort(data)
+    l = X.shape[0]
+    Y = np.linspace(yrange / l, yrange, l)
+    return X, Y
 
 
 def matplotlib_nikita_style():
