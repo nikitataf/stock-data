@@ -21,7 +21,7 @@ def matplotlib_nikita_style():
     mpl.rc('figure', facecolor='1',
            autolayout=False,  # When True, automatically adjust subplot parameters to make the plot fit the figure
            titleweight='normal',  # weight of the figure title
-           figsize=(8, 6))  # figure size in inches)
+           figsize=(10, 6))  # figure size in inches)
     mpl.rc('figure.subplot',
            left=.12, bottom=.11, right=0.97, top=.95)
     mpl.rc('axes', edgecolor='(0.04, 0.14, 0.42)',
