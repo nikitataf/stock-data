@@ -1,4 +1,11 @@
-# Stock Market Data And Analysis In Python
-Stock price data fetching using Yahoo Finance and Alpha vantage.
+# Stock market data analysis in Python
 
-Visualization and performance analysis using pyfolio tear sheet.
+Capital Asset Pricing Model (CAPM) analysis:
+
+- Visualization and performance analysis using Yahoo Finance
+
+- Linear Regression
+
+- Volatility
+
+- Moving average
